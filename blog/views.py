@@ -17,6 +17,12 @@ def post_new(request):
     form = PostForm()
     return render(request, 'blog/post_edit.html', {'form': form})
     
+    
+    
+    
+    
+    blog.views.post_detail
+    
 @login_required
 def post_new(request):
     if request.method == "POST":
