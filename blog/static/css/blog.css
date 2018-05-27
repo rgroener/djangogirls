@@ -8,14 +8,20 @@ body {
 }
 
 .page-header {
-    background-color: #6d6d6d;
+    #background-color: #6d6d6d;
+    width: auto;
+	height: 150px;
+    background-image: url('../Nakajima_Banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 0;
+    margin-bottom: 0;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 36pt;
+    font-size: pt;
     text-decoration: none;
 }
 
@@ -56,4 +62,17 @@ h1, h2, h3, h4 {
 
 .comment {
     margin: 20px 0px 20px 20px;
+}
+    
+.navbar{
+   background-color: #6699cc;
+    text-align: left;
+    overflow: hidden;
+}
+
+.navbar a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
 }
